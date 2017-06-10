@@ -32,7 +32,7 @@ CONFIGURE_FLAGS = \
 	--host=$(TARGET) \
 	--enable-static \
 	--without-icu \
-	--without-freetype \
+	--with-freetype \
 	--without-glib
 
 ifeq ("apple-darwin",$(findstring "apple-darwin",$(TARGET)))
